@@ -1,9 +1,17 @@
 #banner
 .banner_content
 %h1 Make Your Add
-%p Your Add will be saved if you save.
+%p Your Add will be able save Adds and submit when its ready.
+
 #button= link_to "Sign Up", new_user_registration_path
 
 #testimonial
 .wrapper
-%p.quote "The App you always wanted."
+%p.quote "The Add you always wanted."
+
+
+#bottom_cta
+	.wrapper
+		%h2 For Sign ups!
+		
+		%button= link_to "Sign Up", new_user_registration_path
