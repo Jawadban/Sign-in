@@ -5,4 +5,9 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
          has_many :notes
+
+         def admin?
+   		 admin
+		 end
+
 end
